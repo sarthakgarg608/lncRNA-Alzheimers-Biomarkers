@@ -1,0 +1,10 @@
+dataset_id,covariate,test_type,test_statistic,p_value,significant_at_05,interpretation
+GSE63061,age,ANOVA & Kruskal-Wallis,"F=7.28, KW=17.53",0.000788,True,"Age difference across diagnoses (AD: 77.9y, Control: 75.3y, MCI: 78.2y). Statistically significant age difference: MUST adjust for age in DE models."
+GSE63061,sex,Chi-Square (df=2),Chi2=0.06,0.970957,False,Sex distribution by diagnosis. Sex ratio comparable across diagnosis groups (p >= 0.05).
+GSE63061,batch_center,Chi-Square (df=14),Chi2=34.53,0.001727,True,Center/batch balance across diagnoses (8 sites). Significant site-diagnosis association: Site should be included as a blocking factor/covariate.
+GSE63060,age,ANOVA & Kruskal-Wallis,"F=6.91, KW=13.61",0.001152,True,"Age difference across diagnoses (AD: 75.4y, Control: 72.4y, MCI: 74.5y). Statistically significant age difference: MUST adjust for age in DE models."
+GSE63060,sex,Chi-Square (df=2),Chi2=8.33,0.015495,True,Sex distribution by diagnosis. Significant difference in sex ratio between groups: MUST adjust for sex in DE models.
+GSE63060,batch_center,Chi-Square (df=10),Chi2=33.24,0.000248,True,Center/batch balance across diagnoses (6 sites). Significant site-diagnosis association: Site should be included as a blocking factor/covariate.
+GSE125583,age,ANOVA & Kruskal-Wallis,"F=11.64, KW=9.76",0.000737,True,"Age difference across diagnoses (AD: 83.4y, Control: 87.0y). Statistically significant age difference: MUST adjust for age in DE models."
+GSE125583,sex,Chi-Square (df=1),Chi2=0.06,0.803187,False,Sex distribution by diagnosis. Sex ratio comparable across diagnosis groups (p >= 0.05).
+GSE125583,batch_center,N/A,N/A,,False,Batch/site metadata not available in this cohort.

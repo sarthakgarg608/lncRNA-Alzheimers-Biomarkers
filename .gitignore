@@ -1,0 +1,43 @@
+﻿# Local environments, Python build products and test caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+build/
+dist/
+*.egg-info/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.pem
+*.key
+
+# Original downloads and reproducible expression / annotation intermediates
+/data/
+/raw/
+
+# Large products, temporary scratch files, and per-sample working tables
+/outputs/models/
+/outputs/tables/**/tmp*/
+/outputs/tables/**/all_pairs.parquet
+/outputs/tables/**/sequence_hits.tsv
+/outputs/tables/**/sample_qc_*.csv
+/outputs/tables/**/*_samples.csv
+/outputs/tables/**/sample_audit.csv
+/outputs/tables/**/*size_factors.csv
+/outputs/tables/**/*_diagnostics.csv
+/outputs/tables/environment_report.csv
+*.log

@@ -1,0 +1,5 @@
+dataset_id,assay_type,n_samples,total_features,features_with_missing,max_missing_pct,constant_features,near_zero_variance_features,mean_feature_variance,median_feature_variance,q25_feature_variance,q75_feature_variance,mean_expression,median_expression,always_zero_features,expressed_in_lt_5pct_samples
+GSE63061,microarray,388,32049,0,0.0,0,0,0.0263,0.0064,0.002,0.0251,6.6055,6.1489,0,0
+GSE63060,microarray,329,38323,0,0.0,0,0,0.0289,0.0059,0.0037,0.0209,7.9121,7.5348,0,0
+GSE140829,microarray,587,47008,0,0.0,0,0,0.036,0.0074,0.0027,0.0295,7.772,7.3507,0,0
+GSE125583,RNA-seq,289,39376,0,0.0,1181,1181,105005612.9842,94.5123,0.541,45830.7921,754.6057,12.4913,1181,5524

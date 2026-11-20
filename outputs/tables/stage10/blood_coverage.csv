@@ -1,0 +1,4 @@
+dataset,measured,platform_matches,candidate_probes,validated_probes,validated_genes,variable_probes,ambiguous,unmapped
+GSE63061,32049,32049,5221,605,572,605,8508,3284
+GSE63060,38323,38323,5990,1125,1087,1125,7960,6535
+GSE140829,47008,47008,8088,940,845,940,12562,5904

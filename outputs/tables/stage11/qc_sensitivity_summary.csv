@@ -1,0 +1,4 @@
+dataset,primary_n,sensitivity_n,eligible_flagged,valid_primary,valid_sensitivity,paired_valid,same_sign,primary_fdr05,sensitivity_fdr05,retained,lost,gained
+GSE63061,273,267,47,605,605,605,568,3,4,3,0,1
+GSE63060,249,249,14,1125,1125,1125,1125,6,6,6,0,0
+GSE125583,288,281,52,2157,2156,2156,2126,1067,1067,1046,21,21

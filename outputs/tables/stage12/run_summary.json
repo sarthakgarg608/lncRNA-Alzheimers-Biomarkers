@@ -1,0 +1,19 @@
+{
+  "distinct_coding_with_edges": {
+    "primary": 16799,
+    "sensitivity": 16799,
+    "stable": 16799
+  },
+  "GO": {
+    "source": "Human.GRCh38.p13.annot.tsv.gz",
+    "sha256": "a0b6ff49b0851334c709edbd52ae9c80ae998d66d9a30185de364ffb4a59efea",
+    "background": 16799,
+    "annotated": 15074,
+    "distinct_terms": 12239,
+    "eligible_terms": 1826,
+    "eligible_lists": 560,
+    "tested": 1022560,
+    "significant": 3258,
+    "distinct_significant_terms": 357
+  }
+}
